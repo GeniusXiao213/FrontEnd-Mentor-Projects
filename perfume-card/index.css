@@ -1,0 +1,62 @@
+body{
+    background-color: blanchedalmond;
+}
+
+
+
+.state{
+    
+    display: grid;
+    grid-template-columns: 250px 250px;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 30%;
+    background-color: white;
+}
+
+.text{
+    max-width:250px;
+    margin-left: 20px;
+}
+
+.perfume-title{
+    letter-spacing:5px;
+    color:gray;
+    font-weight: 500;
+}
+.price-form{
+    display: flex;
+}
+
+.original-price{
+    padding-left: 20px;
+    color: gray;
+    text-decoration: line-through;
+}
+
+.text-body{
+    color:gray;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.price{
+    
+    color:green;
+    font-family: cursive;
+}
+
+button{
+    background-color: green;
+    color:white;
+    width: 200px;
+    height: 40px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border:none;
+
+}
